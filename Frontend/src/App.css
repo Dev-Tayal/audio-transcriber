@@ -1,0 +1,49 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(135deg, #0b091e, #190a49, #1b0101);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.App {
+  min-height: 400px;
+  width: 900px;
+  padding: 1.5em;
+  background-color: #0a0122aa;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0, 0, 255, 0.5);
+  transition: filter 300ms;
+  will-change: filter;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+button:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+  transform: scale(1.1);
+}
+
+input {
+ padding: 10px 14px;
+  font-size: 1.05rem; /* makes "No file chosen" text bigger */
+  margin-left:70px;  /* shift slightly right */
+  cursor: pointer;
+}
+input:hover{
+  transform: scale(1.1);
+}
+.result p::-webkit-scrollbar {
+  width: 6px;
+}
+.result p::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
