@@ -1,33 +1,23 @@
-🎷 Audio to Text Transcriber 
+# 🎷Audio to Text Transcriber
 
-A full-stack application that transcribes spoken audio into text using OpenAI’s Whisper API. Built with React, Spring Boot, and Spring AI. 
+A full-stack application that transcribes spoken audio into text using OpenAI’s Whisper API. Built with React, Spring Boot, and Spring AI.
 
-🛠️ Tech Stack 
+## 🔧 Tools
+- Frontend: React.js
+- Backend: Spring Boot (Java), Spring AI
+- Transcription API: OpenAI Whisper
+- Styling: CSS (custom styles with centered flex layout)
 
-- Frontend: React.js 
-
-- Backend: Spring Boot (Java), Spring AI 
-
-- Transcription API: OpenAI Whisper 
-
-- Styling: CSS (custom styles with centered flex layout) 
-
-✨ Features 
-
+## ✨ Features
 - 🎙 Upload any audio file (e.g. .mp3, .wav) 
-
 - 🔮 Uses OpenAI’s Whisper model for accurate transcription 
-
 - 📃 Displays transcribed text inside a styled result box 
+- 📱 Responsive and visually aesthetic UI
 
-- 📱 Responsive and visually aesthetic UI 
+## 🖼️ UI Snapshot
+The app features a central glowing box with a gradient background, large input and button controls, and a scroll-free expanding layout for large transcriptions.
 
-🖼️ UI Snapshot 
-
-The app features a central glowing box with a gradient background, large input and button controls, and a scroll-free expanding layout for large transcriptions. 
-
-📂 Folder Structure 
-
+## 📂 Folder Structure
 /client 
   └── src/ 
       └── AudioTranscribe.jsx 
@@ -38,36 +28,27 @@ The app features a central glowing box with a gradient background, large input a
       └── controller/ 
       └── service/ 
       └── main/ 
- 
-
-⚙️ How to Run 
-
-Backend (Spring Boot) 
-
+      
+## ⚙️ How to Run
+Backend (Spring Boot)
 1. Add your OpenAI API key in application.properties: 
    spring.ai.openai.api-key=YOUR_API_KEY 
 2. Run the Spring Boot app: 
-   ./mvnw spring-boot:run 
- 
-
-Frontend (React) 
-
+   ./mvnw spring-boot:run
+   
+Frontend (React)
 1. Navigate to the client folder and install dependencies: 
    npm install 
 2. Start the app: 
    npm start 
- 
 
-📦 Dependencies 
-
+## 📦 Dependencies
 - spring-ai-starter-openai 
-
 - axios 
-
 - react 
 
-✨ UI Styling Highlights 
 
+ ## ✨ UI Styling Highlights 
 html, body { 
   background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); 
   display: flex; 
@@ -84,22 +65,21 @@ html, body {
   flex-direction: column; 
   transition: all 0.3s ease-in-out; 
 } 
- 
+- 1. Add your OpenAI API key in application.properties: 
+   spring.ai.openai.api-key=YOUR_API_KEY 
+2. Run the Spring Boot app: 
+   ./mvnw spring-boot:run 
+- Transcription API: OpenAI Whisper
+- Styling: CSS (custom styles with centered flex layout)
 
-📌 To Do 
-
+## 📌 To Do
 - [ ] Add support for longer audio uploads 
-
 - [ ] Add loading indicator 
+- [ ] Export transcription to .txt
+- [ ]  any audio file (e.g. .mp3, .wav) 
 
-- [ ] Export transcription to .txt 
-
-🧠 Inspiration 
-
+## 🧠 Inspiration
 This project demonstrates the power of AI for speech-to-text conversion and is ideal for use cases like: 
-
 - Meeting transcriptions 
-
 - Voice notes 
-
-- Podcasts and interviews 
+- Podcasts and interviews  
